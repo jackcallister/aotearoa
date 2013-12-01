@@ -1,0 +1,36 @@
+html {
+  border-top: 8px solid $black;
+}
+
+body {
+  width: 90%;
+  max-width: 640px;
+  margin: auto;
+}
+
+header[role="banner"] {
+  padding-top: $default-margin * 6;
+  padding-bottom: $default-margin * 4;
+  margin-bottom: $default-margin * 2;
+
+  border-bottom: 1px solid $grey;
+}
+
+article header {
+  margin-top: $default-margin * 5;
+  margin-bottom: $default-margin * 3;
+}
+
+.entry-content {
+  padding-bottom: $default-margin;
+  border-bottom: 1px solid $grey;
+}
+
+footer {
+  margin-top: $default-margin;
+}
+
+.pagination {
+  margin-top: $default-margin * 1.4;
+  margin-bottom: $default-margin;
+}
